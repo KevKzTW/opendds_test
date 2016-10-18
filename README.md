@@ -1,6 +1,6 @@
 # opendds_test
 
-This program was modified from OpenSplice/examples/DCPS/cpp/throughput and supported by openDDS .
+This program was modified from VortexOpenSplice/examples/dcps/throughput/cpp/ and supported by openDDS .
 
 Please put the folder into openDDS root folder 
 
