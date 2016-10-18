@@ -13,7 +13,7 @@ $ cd /OpenDDS-3.9/opendds_test/throughput
 $ make
 
 ###  
-Publisher command  
+Publisher command in RTPS mode  
 $ ./publisher -DCPSConfigFile rtps.ini   
 or
 $ ./publisher -DCPSConfigFile rtps.ini [payloadSize] [burstInterval] [burstSize]  
@@ -21,5 +21,5 @@ $ ./publisher -DCPSConfigFile rtps.ini [payloadSize] [burstInterval] [burstSize]
 And press ctrl+c to stop , after publication match . 
   
 ###  
-Subscriber command  
+Subscriber command in RTPS mode  
 $ ./subscriber -DCPSConfigFile rtps.ini  
