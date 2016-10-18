@@ -1,0 +1,11 @@
+module Throughput
+{
+	typedef sequence<octet> TestSequence;
+
+	#pragma DCPS_DATA_TYPE "Throughput::DataType"
+	struct DataType{
+		unsigned long long count;
+		TestSequence  payload;
+	};
+};
+
