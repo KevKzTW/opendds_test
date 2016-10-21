@@ -23,3 +23,5 @@ And press ctrl+c to stop , after publication match .
 ###  
 Subscriber command in RTPS mode  
 $ ./subscriber -DCPSConfigFile rtps.ini  
+
+Remember to change local_addre value to your network address in the rtps.ini   
