@@ -1,0 +1,10 @@
+module RoundTripModule
+{
+	typedef sequence<octet> TestSequence;
+
+	#pragma DCPS_DATA_TYPE "RoundTripModule::DataType"
+	struct DataType{
+		TestSequence  payload;
+	};
+};
+
